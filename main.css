@@ -1,0 +1,49 @@
+
+.outer-shell{
+	background-color: grey;
+	width:50%;
+
+	color: red;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2em;
+	padding: 2em;	
+	display: table;
+}
+
+.inner-shell{
+	position: relative;
+	width: 80%
+}
+
+.inner-shell p{
+	font-size: 600%;
+	text-align: right;
+	vertical-align: right;
+	display: block;
+	color: red;
+	background-color: black;
+	padding: .2em;
+	padding-left: 1em;
+	padding-right: 1em;
+
+
+}
+
+.AM, .PM{
+	font-size: 150%;
+	display: table-cell;
+	color: white;
+	padding-bottom: 20px;
+	position: relative;
+  	top: -25px;
+}
+
+.am-labels, .fm-labels{
+	font-size: 150%;
+	word-spacing: 1.5em;
+	color: white;
+	position: relative;
+  	top: -40px;
+
+}
